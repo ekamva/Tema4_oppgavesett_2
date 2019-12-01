@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: beige;
+}
+.App h1{
+  font-size: 20px;
+  color: rebeccapurple;
+}
+
+.App p{
+  font-size: 20px;
+  color: green;
+}
+
+.minSide{
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+}
+
+header {
+   background-color: lemonchiffon;
+   font-size: 20px;
+}
+
+header ul{
+   list-style: none;
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+}
+
+main{
+   font-size: 32px;
+   color: brown;
+   background-color: lavenderblush;
+}
+
+footer{
+   background-color: cadetblue;
+}
+
+.sirkel{
+  border-radius: 50%;
+  width:60px;
+  height:60px;
+  background-color: orangered;
+  margin: 30px auto;
+}
